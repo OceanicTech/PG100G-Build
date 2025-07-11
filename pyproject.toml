@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ToolsTol"
+version = "1.0.0"
+description = "Tools from python"
+authors = [{name = "Me"}]
+readme = "README.md"
+requires-python = ">=3.13.3"
+license = {text = "MIT"}
+
+[project.dependencies]
+requests = "^2.32.3"
+pyinstaller = "^6.13.0"

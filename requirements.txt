@@ -1,10 +1,5 @@
 requests==2.32.3
-os
-sys
-time
-pytest
 PyInstaller==6.13.0
 pillow
 pygame
-zipfile
-logging
+pytest
